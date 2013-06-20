@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir["**/*"].select { |d| d =~ %r{^(README|bin/|data/|ext/|lib/|spec/|test/)} }
 
   gem.add_dependency "rack",         ">= 1.0"
-  gem.add_dependency "debugger", "~> 1.1.1"
+  gem.add_dependency "debugger", "~> 1.6.0"
 
   gem.required_ruby_version = ">= 1.9.2"
 end
